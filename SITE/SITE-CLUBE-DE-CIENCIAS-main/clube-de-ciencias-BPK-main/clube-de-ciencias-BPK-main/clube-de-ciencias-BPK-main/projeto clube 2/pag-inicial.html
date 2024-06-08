@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clube de Ciências</title>
+
+    <link rel="stylesheet" href="pag-inicial.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous"> <!-- carr -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">   <!-- fonte -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">  <!-- wpp -->
+
+</head>
+
+<body>
+    
+    <div class="whatsapp">
+
+        <a class="whatsapp-link" href="https://web.whatsapp.com/send?phone=5545991148284" target="_blank">
+        <i class="fa fa-whatsapp"></i></a>
+
+    </div>
+
+
+    <section style="position: fixed; z-index: 100; width: 100%; ">
+
+        <nav class="navbar">
+            <div class="logo">
+                <a href="pag-inicial.html"><img src="imagens/logoBPK.webp" alt="logo" class="logo"></a>
+            </div>
+            <div class="links">
+                <ul class="lista">
+                    
+                    <li class="home-link"><a href="pag-inicial.html" target="_self">Home</a></li>
+
+                    <li><a href="pag-sobre.html" target="_self">Sobre</a></li>
+
+                    <li><a href="pag-noticias.html" target="_self">Notícias</a></li> 
+                    
+                    <li><a href="#" target="_self">Pré-Clube</a></li>
+
+                    <li><a href="#" target="_self" class="education-link">Educação</a>
+                        <ul class="submenu">
+                            <li><a href="pag-robotica.html" target="_self">Robótica</a></li> 
+                            <li><a href="pag-ciencias.html" target="_self">Ciências</a></li>
+                            <li><a href="pag-programacao.html" target="_self">Programação</a></li>
+                            <li><a href="pag-inovacao.html" target="_self">Inovação</a></li>
+                        </ul>
+                </ul>
+
+            </div>
+        </nav>
+
+    </section>
+
+<main>
+    
+    <section class="carrossel"> <!-- slidecabeçalho -->
+
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="imagens/C1.jpg" class="d-block mx-auto carousel-image" alt="..." style="box-shadow: 1px 3px 10px rgb(0, 0, 0);">
+                </div>
+                <div class="carousel-item">
+                    <img src="imagens/C2.jpg" class="d-block mx-auto carousel-image" alt="..."style="box-shadow: 1px 3px 10px rgb(0, 0, 0);">
+                </div>
+                <div class="carousel-item">
+                    <img src="imagens/clube carrosel.png" class="d-block mx-auto carousel-image" alt="..."style="box-shadow: 1px 3px 10px rgb(0, 0, 0);">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script> <!-- carrossel -->
+
+
+    <section>
+        <div class="conteiner-cards">
+
+            <div class="m1" onclick="redirecionar('pag-preclube.html')">
+                <p>Robótica</p>
+                <img src="imagens/robotica.png" alt="Descrição da imagem">
+            </div>
+
+            <div class="m2" onclick="redirecionar('pag-preclube.html')">
+                <p>Ciências</p>
+                <img src="imagens/ciencias.png" alt="Descrição da imagem">
+            </div>
+
+            <div class="m3" onclick="redirecionar('pag-preclube.html')">
+                <p>Programação</p>
+                <img src="imagens/programação.png" alt="Descrição da imagem">
+            </div>
+
+            <div class="m4" onclick="redirecionar('pag-preclube.html')">
+                <p>Inovação</p>
+                <img src="imagens/inovação 1.svg" alt="Descrição da imagem">
+            </div>
+
+            <div class="m5" onclick="redirecionar('pag-preclube.html')">
+                <p>Notícias</p>
+                <img src="imagens/n3.png" alt="Descrição da imagem">
+            </div>
+
+            <div class="m6" onclick="redirecionar('pag-preclube.html')">
+                <p>Pré-Clube</p>
+                <img src="imagens/pre-clube.png" alt="Descrição da imagem">
+            </div>
+            
+        </div>
+
+    </section>
+
+
+  <script src="pag-inicial.js"></script>  <!-- comentar script  -->
+
+</main>
+
+<footer>
+
+    <section>
+
+        <div class="rodape">
+            
+            <div class="coluna1">
+
+                <img src="imagens/logoBPK.webp" alt="" class="logo-rodape">
+                <img src="imagens/icones.svg" alt="" class="icones-rodape">
+
+                <h3>Informações</h3>
+                
+                <p><a href="https://www.google.com/maps?output=search&q=Rodovia+estadual,+PR-182+-+conex%C3%A3o+com+BR-163.+Toledo+%7C+Paran%C3%A1+%7C+Brasil&entry=mc&sa=X&ved=2ahUKEwigvIm-_dT_AhV2jJUCHcKYC5wQ0pQJegQICBAB">Rodovia estadual, PR-182 - conexão com BR-163. Toledo | Paraná | Brasil</a></p>
+
+            </div>
+            
+            <div class="coluna2">
+
+                <h3><a href="pag-sobre.html">Sobre o Clube</a></h3>
+
+                <h4><a href="pag-sobre.html">Objetivos</a></h4>
+
+                <h4><a href="pag-sobre.html">Métodologia</a></h4> 
+
+                <h4><a href="pag-sobre.html">conheça nossa equipe</a></h4>
+
+            </div>
+
+            <div class="coluna3">
+                <h3><a href="#">Contato</a></h3>
+
+                <h3><a href="pag-noticias.html">Notícias</a></h3>
+
+                <h3><a href="#contato">Pré-Clube</a></h3>
+
+                <img src="imagens/empresa1.svg" alt="" class="empresa1-rodape">
+                <img src="imagens/empresa2.svg" alt="" class="empresa2-rodape">
+                <img src="imagens/empresa3.png" alt="" class="empresa3-rodape">
+            </div>
+
+        </div>
+    </section>
+
+</footer>
+
+</body>
+</html>

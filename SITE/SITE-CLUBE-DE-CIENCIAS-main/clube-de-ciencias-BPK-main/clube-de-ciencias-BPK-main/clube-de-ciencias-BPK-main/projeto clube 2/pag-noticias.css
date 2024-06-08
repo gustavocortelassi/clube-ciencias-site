@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    background-image: url(imagens/fundo\ -\ noticias.svg); /* img/Frame\ 3.svg */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  
+  .navbar {
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    background-color: #002a68;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 1px 3px 10px rgb(0, 0, 0);
+}
+
+.logo img {
+    width: 30%;
+    padding-left: 30px;
+}
+
+.links {
+    width: 40%;
+}
+
+.lista {
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 20px;
+    /* padding-top: 18px; */
+}
+
+.lista a {
+    text-decoration: none;
+    color: white;
+}
+
+.lista ul {
+    display: none;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+}
+
+.lista ul li {
+    display: block;
+}
+
+.submenu a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 3px;
+    padding-left: 2px;
+    background-color: #002a68;
+    width: 115%;
+}
+
+.submenu a:hover {
+    background-color: rgba(255, 72, 0, 0.644);
+    transition: 0.3s;
+}
+
+.lista li:hover > .submenu {
+    display: block;
+}
+
+.cont-img{
+    display: flex;
+    justify-content: center;
+    box-shadow: black;
+    padding-top: 5%;
+}
+
+.img-principal-noticias{
+    padding-top: 25px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.img-principal-noticias img {
+    box-shadow: 1px 3px 10px rgb(0, 0, 0);
+}
+
+
+.container {
+    /* background-color: white; */
+    margin-top: 10vh;
+    gap: 30px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50%;
+    height: 80vh;
+    width: 100%;
+
+}
+
+.noticia1{
+    background-image: url(imagens/C1.jpg);
+    position: relative;
+    box-shadow: 1px 3px 10px rgb(0, 0, 0);
+    border-radius: 15px;
+    width: 70%;
+    margin-left: auto;
+
+}
+
+.noticia2{
+    background-image: url(imagens/C1.jpg);
+    position: relative;
+    box-shadow: 1px 3px 10px rgb(0, 0, 0);
+    border-radius: 15px;
+    width: 70%;
+
+
+}
+
+.noticia3{
+    background-image: url(imagens/C1.jpg);
+    position: relative;
+    box-shadow: 1px 3px 10px rgb(0, 0, 0);
+    border-radius: 15px;
+    width: 70%;
+    margin-left: auto;
+
+}
+
+.noticia4{
+    background-image: url(imagens/C2.jpg);
+    position: relative;
+    box-shadow: 1px 3px 10px rgb(0, 0, 0);
+    border-radius: 15px;
+    width: 70%;
+
+}
+
+.texto-inf {
+    position: absolute; /* Defina a posição como absoluta */
+    bottom: 0; /* Alinhe o elemento no fundo da caixa */
+    background-color: rgba(0, 0, 0, 0.65);
+    color: white;
+    margin-bottom: auto;
+    border-radius: 0px 0px 10px 10px;
+    padding: 5px;
+    
+}
+
+.subtitulo{
+    background-color: rgb(224, 90, 0);
+    box-shadow: 1px 3px 10px rgb(0, 0, 0);
+    color: white;
+    width: auto;
+    border-radius: 0px 20px 20px 0px;
+    margin-right: 200px;
+    height: 7vh;
+
+}
+
+.noticia1 div {
+    background-image: url('img/C1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* Resto do seu código */
+}
+
+.coluna1 a{
+    text-decoration: none;
+    color: white;
+}
+
+.coluna2 a{
+    text-decoration: none;
+    color: white;
+}
+
+.coluna3 a{
+    text-decoration: none;
+    color: white;
+}
+
+.rodape{
+    margin-top: 50px;
+    display: flex;
+    background-color: #002a68;
+    justify-content: space-evenly;
+    width: 100%;
+    box-shadow: 1px 3px 10px rgb(0, 0, 0);
+}
+
+.rodape div{
+    /* border: solid black; */
+    width: 30%;
+    padding-top: 25px;
+    justify-content: center;
+}
+
+.logo-rodape {
+    width: 50%;
+    padding-left: 10px;
+}
+
+.icones-rodape{
+    width: 50%;
+}
+
+.rodape h3{
+    padding-left: 20px;
+    font-size: 28px;
+}
+
+.rodape p{
+    padding-left: 20px;
+}
+
+.rodape h4{
+    padding-left: 20px;
+    font-size: 24px;
+}
+
+.empresa1-rodape{
+    width: 30%;
+}
+
+.empresa2-rodape{
+    width: 20%;
+}
+
+.empresa3-rodape{
+    width: 40%;
+}
+
+
+.coluna1 a{
+    text-decoration: none;
+    color: white;
+}
+
+.coluna2 a{
+    text-decoration: none;
+    color: white;
+}
+
+.coluna3 a{
+    text-decoration: none;
+    color: white;
+}
+
+.whatsapp-link {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 2px #888;
+    z-index: 1000;
+}
+
+.fa-whatsapp {
+    margin-top: 16px;
+}

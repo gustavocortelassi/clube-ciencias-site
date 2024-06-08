@@ -1,0 +1,467 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    background-image: url(imagens/fundo-borrado.svg);
+    /* img/Frame\ 3.svg */
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+@media screen and (max-width: 440px) {
+    .home-link {
+        display: block;
+    }
+    .education-link {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 440px) and (max-height: 926px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing:border-box;
+        color: white;
+        font-family: 'Quicksand', sans-serif;
+    }
+
+    .logo img {
+        display: none;
+      }
+
+    .links {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .lista {
+        justify-content: center;
+      }
+
+      .lista a {
+        margin: 10px;
+        font-size: 17px;
+      }
+
+    
+
+    .img-pag-sobre {
+        display: none;
+    }
+
+    .equipe {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.8);
+        margin: 15px;
+        border-radius: 15px;
+        padding: 10px;
+        box-shadow: 1px 3px 10px rgb(0, 0, 0);
+    }
+
+    .paragrafo-com-imagem {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 5px;
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .imagem-esquerda {
+        margin-right: 10px;
+        width: 20%; /* Ajuste o valor da largura aqui */
+    }
+
+    .imagem-direita {
+        margin-left: 10px;
+        width: 20%; /* Ajuste o valor da largura aqui */
+    }
+
+    .rodape div {
+        width: 100%;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .logo-rodape {
+        width: 70%;
+        padding-left: 0;
+        margin-bottom: 10px;
+    }
+
+    .icones-rodape {
+        width: 100%;
+    }
+
+    .rodape h3 {
+        font-size: 20px;
+    }
+
+    .rodape p {
+        font-size: 12px;
+    }
+
+    .rodape h4 {
+        font-size: 16px;
+    }
+
+    .coluna1 h3 {
+        text-decoration: none;
+        color: white;
+        font-size: 12px;
+    }
+
+    .coluna2 a {
+        text-decoration: none;
+        color: white;
+        font-size: 12px;
+    }
+
+    .coluna3 a {
+        text-decoration: none;
+        color: white;
+        font-size: 12px;
+    }
+
+    .empresa1-rodape {
+        display: none;
+    }
+
+    .empresa2-rodape {
+        display: none;
+    }
+
+    .empresa3-rodape {
+        display: none;
+    }
+
+
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    background-color: #002a68;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 1px 3px 10px rgb(0, 0, 0);
+}
+
+.logo img {
+    width: 30%;
+    padding-left: 30px;
+}
+
+.links {
+    width: 40%;
+}
+
+.lista {
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 20px;
+    padding-top: 18px;
+}
+
+.lista a {
+    text-decoration: none;
+    color: white;
+}
+
+.lista ul {
+    display: none;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+}
+
+.lista ul li {
+    display: block;
+}
+
+.submenu a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 3px;
+    padding-left: 2px;
+    background-color: #002a68;
+    width: 115%;
+}
+
+.submenu a:hover {
+    background-color: rgba(255, 72, 0, 0.644);
+    transition: 0.3s;
+}
+
+.lista li:hover > .submenu {
+    display: block;
+}
+
+.education-link {
+    text-decoration: none;
+}
+
+.lista li:hover>.submenu {
+    display: block;
+}
+
+.conteudo {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 70px;
+    padding-bottom: 70px;
+
+}
+
+.box {
+    margin-top: 5%;
+    width: 80%;
+    /* background-color: black;
+    border: solid white; */
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;
+}
+
+.sobre {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 1px 3px 10px rgb(0, 0, 0);
+    margin: 15px;
+}
+
+.cont-imagens {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.img-pag-sobre {
+    width: 30%;
+    padding: 10px;
+    align-items: center;
+}
+
+.objetivos {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 1px 3px 10px rgb(0, 0, 0);
+    margin: 15px;
+
+}
+
+.metodologia {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 15px;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 1px 3px 10px rgb(0, 0, 0);
+
+}
+
+.equipe {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 15px;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 1px 3px 10px rgb(0, 0, 0);
+}
+
+.paragrafo-com-imagem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+    max-width: 1000px; /* Adicione esta linha */
+    margin: 0 auto; /* Adicione esta linha para centralizar horizontalmente */
+    font-size: 15px;
+    text-align: justify;
+}
+
+.imagem-esquerda,
+.imagem-direita {
+    margin: 10px auto; /* Adicione esta linha para centralizar horizontalmente */
+    max-width: 40%; /* Ajuste o valor da largura aqui */
+}
+
+.box p {
+    color: black;
+}
+
+.box h2 {
+    color: #002a68;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+
+.rodape {
+    display: flex;
+    background-color: #002a68;
+    justify-content: space-evenly;
+    width: 100%;
+    box-shadow: 1px 3px 10px rgb(0, 0, 0);
+}
+
+.rodape div {
+    /* border: solid black; */
+    width: 30%;
+    padding-top: 25px;
+    justify-content: center;
+}
+
+.logo-rodape {
+    width: 50%;
+    padding-left: 10px;
+}
+
+.icones-rodape {
+    width: 50%;
+}
+
+.rodape h3 {
+    padding-left: 20px;
+    font-size: 28px;
+}
+
+.rodape p {
+    padding-left: 20px;
+}
+
+.rodape h4 {
+    padding-left: 20px;
+    font-size: 24px;
+}
+
+.empresa1-rodape {
+    width: 30%;
+}
+
+.empresa2-rodape {
+    width: 20%;
+}
+
+.empresa3-rodape {
+    width: 40%;
+}
+
+
+.coluna1 a {
+    text-decoration: none;
+    color: white;
+}
+
+.coluna2 a {
+    text-decoration: none;
+    color: white;
+}
+
+.coluna3 a {
+    text-decoration: none;
+    color: white;
+}
+
+.whatsapp-link {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 2px #888;
+    z-index: 1000;
+}
+
+.fa-whatsapp {
+    margin-top: 16px;
+}
+
+@media screen and (max-width: 440px) {
+    .home-link {
+        display: block;
+    }
+    .education-link {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 440px) and (max-height: 926px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing:border-box;
+        color: white;
+        font-family: 'Quicksand', sans-serif;
+    }
+    
+
+    .logo img {
+      display: none;
+    }
+    
+    .links {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      padding-bottom: 18px;
+    }
+    
+    .lista {
+      justify-content: center;
+    }
+    
+    .lista a {
+      margin: 10px;
+      font-size: 17px;
+    }
+}
+
+
+@media (max-width: 428px) {
+    .rodape h3{
+        font-size: 20px;
+        text-align: justify;
+    }
+    
+    .rodape h4{
+        font-size: 20px;
+        text-align: justify;
+    }
+
+    .rodape p{
+        font-size: 10px;
+        text-align: justify;
+    }
+
+    .coluna1 > img {
+        width: 100%;
+        text-align: justify;
+    }
+}
